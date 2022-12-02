@@ -1,0 +1,85 @@
+/*Resets the pages default margin and padding for the entire html file.*/
+*{
+    margin: 0; padding: 0
+}
+
+body {
+    /*background-color: #3168ff;*/
+    background: url('https://drive.google.com/uc?export=view&id=1BM-TEc-puk1Wa_CddKfjw5kVi0-QAaNL') no-repeat;
+    /*https://drive.google.com/uc?export=view&id=1DsZyEa2KepTAcUuW2iBEhoRdEj14xKBE
+    https://drive.google.com/uc?export=view&id=1BM-TEc-puk1Wa_CddKfjw5kVi0-QAaNL*/
+    /*The full form of VH is viewport height. It works like the 
+    percentage unit as well. 
+    
+    Specifying 10vh is equivalent to 
+    occupying 10% of entire visible screen height:*/
+    padding-top: 10vh;
+}
+
+.form-container {
+    width: 250px;
+    height: auto;
+    /* The first padding applies to the top and bottom, 
+    the second to the left and right:*/
+    padding: 40px 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    /* box-shadow: offset-x | offset-y | blur-radius | spread-radius 
+    | color */
+    box-shadow: 0 0 10px 0 #000;
+    margin: auto;
+    /*For respecting login image icon position:*/
+    position: relative;
+}
+
+.login-icon-img {
+    /*background: url('https://drive.google.com/file/d/1KRkJcJG-EAfqiuZNmaDpeYZVJPHZsgJk/view?usp=share_link') no-repeat;*/
+    background: url('https://drive.google.com/uc?export=view&id=1KRkJcJG-EAfqiuZNmaDpeYZVJPHZsgJk') no-repeat;
+    width: 64px;
+    height: 64px;
+    background-size: 100%;
+    position: absolute;
+    top: -40px;
+    left: 120px;
+}
+
+ul.list {
+    /*Set to none to remove bullet points in unordered list:*/
+    list-style-type: none;
+    text-align: center;
+}
+
+/*CSS for li tags; applies to all li inside ul individually*/
+ul.list li{
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+/*Style for input fields in login:*/
+ul.list li input {
+    width: 250px;
+    text-align: center;
+    padding: 8px 0px;
+    border: none;
+    background-color: #d3d3d3;
+    /*Round the edges of the border by adding radius edges:*/
+    border-radius: 5px;
+}
+
+/*Style for login "Submit" button that is in a specific li*/
+ul.list li input[type="button"] {
+    background-color: #4690fb;
+    color: #fff;
+}
+
+/*Style for "Forget Password?" element:
+
+5 li elements, so we specify 5 in child argument for 5th element:
+(the "Forget Password?" is the 5th child element of ul)*/
+ul.list :nth-child(5) {
+    color: #FF0000;
+}
+
+ul.list :nth-child(6) {
+    color: #4690fb;
+}
