@@ -1,0 +1,11 @@
+Personal SQL Connection String:
+Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
+
+SQL Install Log folder:
+C:\Program Files\Microsoft SQL Server\150\Setup Bootstrap\Log\20221205_234835
+
+SQL Install Media Folder: 
+C:\SQL2019\Express_ENU
+
+SQL Install Resources Folder:
+C:\Program Files\Microsoft SQL Server\150\SSEI\Resources
