@@ -1,1 +1,1 @@
-File location for image assets for ReceiptApp.
+This folder contains image assets used in the app.
